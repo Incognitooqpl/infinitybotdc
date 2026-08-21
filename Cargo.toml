@@ -1,0 +1,8 @@
+[package]
+name = "infinity-bot"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+serenity = { version = "0.12.5", features = ["client", "gateway", "model", "rustls_backend", "builder"] }
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
